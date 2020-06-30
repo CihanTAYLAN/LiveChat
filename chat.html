@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoşgeldin</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/chat.css" rel="stylesheet">
+</head>
+<body>
+    <div class="msg_container" id="contain_messages">
+        <div class="msg_history" id="messages"></div>
+    </div>
+    <div class="input_msg_write">
+        <input type="text" placeholder="Mesajınız" id="messageInput" />
+        <button id="sendMessageBtn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Gönder</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+    <script src="assets/js/chat.js"></script>
+</body>
+</html>
